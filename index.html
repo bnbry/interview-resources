@@ -24,6 +24,28 @@
 
       body {
         font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 25px;
+      }
+
+      .links {
+        list-style-type: none;
+        margin: 10px 0;
+        padding: 0;
+      }
+
+      .link {
+        margin: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .link a {
+        display: block;
+      }
+
+      .link p:last-child {
+        margin-bottom: 0;
       }
     </style>
   </head>
@@ -33,14 +55,54 @@
     </header>
     <main>
       <h2>Interview Guides</h2>
-      <ul>
-        <li>
-          <div class="link">
-            <a href="https://interviewguide.dev">interviewguide.dev</a>
-            <p>Start here, go through the whole thing, interviewing can be approached with a plan. If you are a dev everything in here is valuable. If you had another role, swap the specifics with something more appropriate to your role.</p>
-          </div>
+      <ul class="links">
+        <li class="link">
+          <a target="_blank" href="https://interviewguide.dev">InterviewGuide.dev</a>
+          <p>Start here, go through the whole thing, interviewing can be approached systematically with a plan. If you are a dev everything in here is valuable. If you had another role, swap the specifics with something more appropriate to your role.</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://interviewing.io/learn#interview-guides">Interviewing Guides from Interview.io</a>
+          <p>These resources can be a valuable extension of the plan laid out in interviewguide.dev.</p>
         </li>
       </ul>
+      <h2>Coding Practice</h2>
+      <ul class="links"></ul>
+      <h2>Resumes</h2>
+      <ul class="links">
+        <li class="link">
+          <a target="_blank" href="https://www.resumemate.io/resume-builder">Resume Template</a>
+          <p>The first step is crafting a resume that works well with the automated systems in use today. You need to reach a human, this format works.</p>
+        </li>
+      </ul>
+      <h2>Job Boards</h2>
+      <ul>
+        <li class="link">
+          <a target="_blank" href="https://www.linkedin.com/jobs/">LinkedIn Jobs</a>
+          <p>Lots of jobs here, often tuned to your experience.</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://rubyonremote.com/">Ruby on Remote</a>
+          <p>Job board focused on remote ruby language roles or ruby adjacent(ie Frontend in a rails stack).</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://climatebase.org/">Climate Base</a>
+          <p>Job board for positions that are climate related.</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://weworkremotely.com/">We Work Remotely</a>
+          <p>Remote First job board for tech roles.</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://hnhiring.com/">HN Hiring</a>
+          <p>This site scrapes and categorizes comments from Who's Hiring Hacker News posts.</p>
+        </li>
+        <li class="link">
+          <a target="_blank" href="https://www.nowhiteboard.org/">No Whiteboard</a>
+          <p>A job board focused specifically on companies that do not have excessive code challenges in their hiring process.</p>
+        </li>
+      </ul>
+      <h2>Companies Hiring</h2>
+      <ul class="links"></ul>
     </main>
   </body>
 </html>
